@@ -30,7 +30,7 @@ except ImportError as e:
 
 # Page configuration
 st.set_page_config(
-    page_title="🥜 Macadamia Farming AI Assistant",
+    page_title="🥜 MacBot Farmer Assistant",
     page_icon="🥜",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -40,7 +40,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     .main-header {
-        font-size: 2.5rem;
+        font-size: 2.5rem;s
         color: #2E8B57;
         text-align: center;
         margin-bottom: 2rem;
@@ -95,7 +95,7 @@ def initialize_chatbot():
 
 def display_header():
     """Display the main header"""
-    st.markdown('<h1 class="main-header"> Macadamia Farming AI Assistant</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header"> MacBot Farmer Assistant</h1>', unsafe_allow_html=True)
     st.markdown("""
     <div style="text-align: center; margin-bottom: 2rem;">
         <p style="font-size: 1.2rem; color: #666;">
@@ -144,24 +144,24 @@ def setup_sidebar():
         }
     
     # Model training section
-    st.sidebar.header("🤖 AI Models")
-    if st.sidebar.button("Train/Update Models"):
-        with st.sidebar.spinner("Training models..."):
-            try:
-                trainer = MacadamiaModelTrainer()
-                results = trainer.train_all_models()
-                st.session_state.models_trained = True
-                st.sidebar.success("✅ Models trained successfully!")
+    # st.sidebar.header("🤖 AI Models")
+    # if st.sidebar.button("Train/Update Models"):
+    #     with st.sidebar.spinner("Training models..."):
+    #         try:
+    #             trainer = MacadamiaModelTrainer()
+    #             results = trainer.train_all_models()
+    #             st.session_state.models_trained = True
+    #             st.sidebar.success("✅ Models trained successfully!")
                 
-                # Display training results
-                with st.sidebar.expander("Training Results"):
-                    for model_name, metrics in results.items():
-                        if 'test_accuracy' in metrics:
-                            st.write(f"**{model_name}**: {metrics['test_accuracy']:.3f} accuracy")
-                        elif 'test_r2' in metrics:
-                            st.write(f"**{model_name}**: {metrics['test_r2']:.3f} R²")
-            except Exception as e:
-                st.sidebar.error(f"Model training failed: {e}")
+    #             # Display training results
+    #             with st.sidebar.expander("Training Results"):
+    #                 for model_name, metrics in results.items():
+    #                     if 'test_accuracy' in metrics:
+    #                         st.write(f"**{model_name}**: {metrics['test_accuracy']:.3f} accuracy")
+    #                     elif 'test_r2' in metrics:
+    #                         st.write(f"**{model_name}**: {metrics['test_r2']:.3f} R²")
+    #         except Exception as e:
+    #             st.sidebar.error(f"Model training failed: {e}")
     
     # Quick actions
     st.sidebar.header("Quick Actions")
@@ -299,7 +299,7 @@ def display_chat_interface():
             # Bot response
             st.markdown(f"""
             <div class="chat-message bot-message">
-                <strong>🤖 Assistant:</strong><br>
+                <strong>MacBot:</strong><br>
                 {message['bot'].replace('\n', '<br>')}
             </div>
             """, unsafe_allow_html=True)
@@ -307,25 +307,7 @@ def display_chat_interface():
     # Chat input
     st.markdown("---")
     
-    # Quick question buttons
-    st.subheader(" Quick Questions")
-    col1, col2, col3, col4 = st.columns(4)
     
-    with col1:
-        if st.button("🌱 Planting Advice"):
-            user_input = "I need advice on planting macadamia trees"
-    
-    with col2:
-        if st.button("🐛 Pest Management"):
-            user_input = "How do I manage pests organically?"
-    
-    with col3:
-        if st.button("🌿 Fertilization"):
-            user_input = "What fertilizers should I use?"
-    
-    with col4:
-        if st.button("🥜 Harvesting"):
-            user_input = "When and how should I harvest?"
     
     # Text input for custom questions
     user_input = st.text_input("Ask your farming question:", 
