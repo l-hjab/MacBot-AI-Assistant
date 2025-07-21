@@ -1,4 +1,4 @@
-# MacBot-AI-Assistant
+# MacBot-Farmer-Assistant
 # 🥜 Macadamia Farming AI Chatbot
 
 An intelligent AI-powered chatbot designed specifically for macadamia farmers, providing comprehensive organic farming advice using Random Forest machine learning models and Llama API for natural language processing.
