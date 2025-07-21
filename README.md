@@ -127,43 +127,7 @@ response = bot.chat("Should I spray for pests?", farm_data=farm_data)
 - **Output**: Expected yield per tree
 - **Use Case**: Planning and resource allocation
 
-## 📁 Project Structure
-
-```
-macadamia-farming-bot/
-├── macadamia_bot/
-│   ├── core/                 # Core chatbot engine
-│   │   ├── chatbot.py       # Main bot orchestrator
-│   │   ├── query_classifier.py
-│   │   ├── llama_client.py
-│   │   └── response_generator.py
-│   ├── models/              # ML models
-│   │   ├── model_trainer.py
-│   │   ├── pest_predictor.py
-│   │   └── saved/           # Trained model files
-│   ├── domains/             # Farming domain experts
-│   │   ├── planting.py
-│   │   ├── pest_management.py
-│   │   ├── fertilization.py
-│   │   ├── harvesting.py
-│   │   └── certification.py
-│   ├── data/                # Knowledge base
-│   │   ├── farming_dataset.csv
-│   │   ├── pest_management.json
-│   │   ├── fertilization_guide.json
-│   │   ├── planting_calendar.json
-│   │   ├── harvest_timing.json
-│   │   └── certification_guide.json
-│   └── ui/                  # User interface components
-├── config/
-│   └── farming_config.yaml  # Configuration settings
-├── tests/                   # Test files
-├── macadamia_farming_bot.py # Main Streamlit app
-├── setup_farming_bot.py     # Setup script
-├── demo_farming_bot.py      # Demo script
-└── requirements.txt         # Dependencies
-```
-
+     
 ## 🔧 Configuration
 
 ### Environment Variables (.env)
@@ -171,12 +135,6 @@ macadamia-farming-bot/
 # Required
 TOGETHER_API_KEY=your_api_key_here
 
-# Optional
-LLAMA_MODEL=meta-llama/Llama-2-7b-chat-hf
-MAX_TOKENS=500
-TEMPERATURE=0.7
-LOG_LEVEL=INFO
-```
 
 ### Configuration File (config/farming_config.yaml)
 - Model parameters and hyperparameters
@@ -221,7 +179,7 @@ def handle_sms():
     return format_for_sms(response['final_response'])
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
