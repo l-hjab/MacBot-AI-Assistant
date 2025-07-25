@@ -12,6 +12,7 @@ import json
 from typing import Dict, List, Optional, Any
 import logging
 from datetime import datetime
+import openai
 
 logger = logging.getLogger(__name__)
 
@@ -29,7 +30,7 @@ class LlamaClient:
         """
         self.api_key = api_key or os.getenv("TOGETHER_API_KEY", "")
         self.api_url = "https://api.together.xyz/v1/chat/completions"
-        self.model = "meta-llama/Llama-2-7b-chat-hf"
+        self.model = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
         self.max_tokens = 500
         self.temperature = 0.7
         
@@ -333,4 +334,63 @@ Explain the science behind the advice and include practical implementation tips.
                 'timestamp': datetime.now().isoformat(),
                 'note': 'Fallback explanation'
             }
+def _call_gpt35_api(self, prompt: str) -> Dict[str, Any]:
+    """Call OpenAI GPT-3.5 API"""
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant for organic macadamia farmers."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7
+        )
+        content = response.choices[0].message.content
+        return {"success": True, "content": content}
+    except Exception as e:
+        logger.error(f"GPT-3.5 API call failed: {e}")
+        return {"success": False, "error": str(e)}
+    # Make API call
+    response = self._call_llama_api(system_prompt, user_message)
+
+    if response['success']:
+        return {
+            'success': True,
+            'response': response['content'],
+            'domain': farming_domain,
+            'timestamp': datetime.now().isoformat(),
+            'model_used': self.model
+    }
+    else:
+    # Try GPT-3.5 as fallback
+        gpt_response = self._call_gpt35_api(user_query)
+    if gpt_response["success"]:
+        return {
+            'success': True,
+            'response': gpt_response["content"],
+            'domain': farming_domain,
+            'timestamp': datetime.now().isoformat(),
+            'model_used': 'gpt-3.5-turbo'
+        }
+    return self._fallback_response(user_query, farming_domain)
+
+    def should_use_gpt(user_query: str) -> bool:
+        keywords = ["summarize", "rephrase", "simplify", "translate", "what does", "in simple terms"]
+        return any(k in user_query.lower() for k in keywords)
+
+        if should_use_gpt(user_query):
+            gpt_response = self._call_gpt35_api(user_query)
+        if gpt_response["success"]:
+            return {
+                'success': True,
+                'response': gpt_response["content"],
+                'domain': farming_domain,
+                'timestamp': datetime.now().isoformat(),
+                'model_used': 'gpt-3.5-turbo'
+        }
+
+
+    
+
+    
 
