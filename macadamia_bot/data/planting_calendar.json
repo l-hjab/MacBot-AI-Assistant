@@ -1,0 +1,176 @@
+{
+  "planting_guide": {
+    "site_selection": {
+      "climate_requirements": {
+        "temperature": "18-25°C optimal growing range",
+        "rainfall": "1000-2000mm annually, well distributed",
+        "humidity": "60-80% relative humidity",
+        "frost_tolerance": "Young trees sensitive, mature trees tolerate light frost"
+      },
+      "soil_requirements": {
+        "type": "Well-draining, deep volcanic or alluvial soils",
+        "ph": "6.0-6.5 optimal range",
+        "depth": "Minimum 1.5m deep soil",
+        "drainage": "Good drainage essential, avoid waterlogged areas",
+        "slope": "Gentle slopes preferred for drainage"
+      },
+      "location_factors": [
+        "Protection from strong winds",
+        "Good air circulation",
+        "Access to water for irrigation",
+        "Proximity to processing facilities",
+        "Suitable for mechanization"
+      ]
+    },
+    "planting_calendar": {
+      "northern_hemisphere": {
+        "spring_planting": {
+          "months": "March-May",
+          "advantages": [
+            "Full growing season ahead",
+            "Established before winter",
+            "Good root development time"
+          ],
+          "considerations": [
+            "Ensure last frost has passed",
+            "Adequate water supply needed",
+            "Monitor for spring pests"
+          ]
+        },
+        "autumn_planting": {
+          "months": "September-November",
+          "advantages": [
+            "Cooler temperatures reduce stress",
+            "Winter rains help establishment",
+            "Less irrigation required"
+          ],
+          "considerations": [
+            "Plant early enough before frost",
+            "Protect from winter winds",
+            "Monitor soil drainage"
+          ]
+        }
+      },
+      "southern_hemisphere": {
+        "spring_planting": {
+          "months": "September-November",
+          "advantages": [
+            "Optimal growing conditions",
+            "Full season for establishment",
+            "Reduced transplant shock"
+          ]
+        },
+        "autumn_planting": {
+          "months": "March-May",
+          "advantages": [
+            "Mild temperatures",
+            "Good soil moisture",
+            "Less pest pressure"
+          ]
+        }
+      }
+    },
+    "tree_spacing": {
+      "traditional_spacing": {
+        "distance": "8m x 8m (156 trees/hectare)",
+        "advantages": "Easy mechanization, good air circulation",
+        "suitable_for": "Large commercial orchards"
+      },
+      "intensive_spacing": {
+        "distance": "6m x 6m (278 trees/hectare)",
+        "advantages": "Higher yield per hectare, faster canopy closure",
+        "suitable_for": "High-input management systems"
+      },
+      "super_intensive": {
+        "distance": "4m x 6m (417 trees/hectare)",
+        "advantages": "Maximum land utilization, early production",
+        "requirements": "Intensive management, regular pruning"
+      }
+    },
+    "planting_procedure": {
+      "hole_preparation": {
+        "size": "1m x 1m x 1m minimum",
+        "soil_amendment": "Mix native soil with 30% compost",
+        "drainage": "Add gravel layer if needed",
+        "timing": "Prepare 2-4 weeks before planting"
+      },
+      "tree_selection": {
+        "age": "6-12 months old grafted trees",
+        "height": "30-60cm tall",
+        "root_system": "Healthy, well-developed roots",
+        "graft_union": "Clear, well-healed graft union"
+      },
+      "planting_steps": [
+        "Dig hole twice the width of root ball",
+        "Place tree at same depth as in container",
+        "Backfill with amended soil mixture",
+        "Water thoroughly to settle soil",
+        "Apply 5-10cm mulch layer",
+        "Install tree guard if needed",
+        "Mark tree location and variety"
+      ],
+      "post_planting_care": {
+        "watering": "Deep watering 2-3 times per week",
+        "mulching": "Maintain 10cm mulch layer",
+        "staking": "Stake if in windy location",
+        "protection": "Protect from pests and animals",
+        "monitoring": "Check weekly for first month"
+      }
+    },
+    "variety_selection": {
+      "popular_varieties": {
+        "beaumont": {
+          "characteristics": "Large nuts, good cracking quality",
+          "yield": "High yielding variety",
+          "harvest_time": "Mid to late season"
+        },
+        "a4": {
+          "characteristics": "Consistent producer, good kernel recovery",
+          "yield": "Reliable annual cropping",
+          "harvest_time": "Early to mid season"
+        },
+        "a16": {
+          "characteristics": "Large nuts, excellent kernel quality",
+          "yield": "Good yields when mature",
+          "harvest_time": "Late season"
+        },
+        "a38": {
+          "characteristics": "Compact tree, suitable for intensive planting",
+          "yield": "Early bearing, consistent yields",
+          "harvest_time": "Mid season"
+        }
+      },
+      "selection_criteria": [
+        "Climate adaptation",
+        "Soil compatibility",
+        "Market requirements",
+        "Processing characteristics",
+        "Disease resistance",
+        "Harvest timing spread"
+      ]
+    }
+  },
+  "establishment_timeline": {
+    "year_1": {
+      "focus": "Root establishment and survival",
+      "care": "Regular watering, weed control, pest monitoring",
+      "growth": "30-60cm height increase expected"
+    },
+    "year_2_3": {
+      "focus": "Vegetative growth and canopy development",
+      "care": "Fertilization program, pruning training, continued protection",
+      "growth": "Rapid canopy expansion"
+    },
+    "year_4_6": {
+      "focus": "First flowering and nut production",
+      "care": "Balanced nutrition, pest management, harvest preparation",
+      "production": "Initial small crops"
+    },
+    "year_7_plus": {
+      "focus": "Full production and orchard maturity",
+      "care": "Production-focused management",
+      "production": "Commercial yields achieved"
+    }
+  }
+}
+

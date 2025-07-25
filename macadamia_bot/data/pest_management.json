@@ -1,0 +1,105 @@
+{
+  "common_pests": {
+    "macadamia_nut_borer": {
+      "scientific_name": "Cryptophlebia ombrodelta",
+      "description": "Small moth larvae that bore into developing nuts",
+      "symptoms": [
+        "Small holes in nuts",
+        "Premature nut drop",
+        "Brown frass around holes",
+        "Kernel damage"
+      ],
+      "organic_treatments": [
+        "Pheromone traps for monitoring",
+        "Beneficial parasitic wasps (Trichogramma)",
+        "Neem oil spray during flowering",
+        "Remove fallen nuts promptly",
+        "Bacillus thuringiensis (Bt) spray"
+      ],
+      "prevention": [
+        "Regular orchard sanitation",
+        "Encourage beneficial insects",
+        "Proper pruning for air circulation",
+        "Monitor with sticky traps"
+      ],
+      "timing": "Most active during warm, humid conditions"
+    },
+    "stink_bugs": {
+      "scientific_name": "Nezara viridula",
+      "description": "Shield-shaped bugs that feed on developing nuts",
+      "symptoms": [
+        "Dimpled or sunken areas on nuts",
+        "Kernel necrosis",
+        "Reduced nut quality",
+        "Black spots on shells"
+      ],
+      "organic_treatments": [
+        "Kaolin clay spray",
+        "Beneficial predators (spiders, birds)",
+        "Pyrethrin-based sprays",
+        "Hand picking in small orchards",
+        "Diatomaceous earth around trees"
+      ],
+      "prevention": [
+        "Maintain diverse habitat for predators",
+        "Remove weeds that harbor pests",
+        "Use reflective mulch",
+        "Plant trap crops nearby"
+      ],
+      "timing": "Peak activity in spring and early summer"
+    },
+    "scale_insects": {
+      "scientific_name": "Various species",
+      "description": "Small insects that attach to branches and leaves",
+      "symptoms": [
+        "Yellowing leaves",
+        "Sticky honeydew on leaves",
+        "Sooty mold growth",
+        "Branch dieback",
+        "Reduced vigor"
+      ],
+      "organic_treatments": [
+        "Horticultural oil spray",
+        "Insecticidal soap",
+        "Beneficial ladybugs",
+        "Pruning heavily infested branches",
+        "Systemic neem oil"
+      ],
+      "prevention": [
+        "Regular inspection of trees",
+        "Avoid over-fertilizing with nitrogen",
+        "Maintain proper tree spacing",
+        "Encourage natural predators"
+      ],
+      "timing": "Year-round monitoring, treat when detected"
+    }
+  },
+  "integrated_pest_management": {
+    "monitoring_schedule": {
+      "weekly": [
+        "Visual inspection of trees",
+        "Check pheromone traps",
+        "Monitor beneficial insects"
+      ],
+      "monthly": [
+        "Detailed pest assessment",
+        "Update treatment records",
+        "Evaluate treatment effectiveness"
+      ],
+      "seasonal": [
+        "Spring: Set up monitoring systems",
+        "Summer: Intensive monitoring and treatment",
+        "Autumn: Harvest sanitation",
+        "Winter: Orchard cleanup and planning"
+      ]
+    },
+    "organic_certification_requirements": [
+      "Use only approved organic pesticides",
+      "Maintain detailed treatment records",
+      "Implement biological control methods",
+      "Follow pre-harvest interval guidelines",
+      "Regular soil and water testing"
+    ]
+  }
+}
+

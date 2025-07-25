@@ -1,0 +1,138 @@
+# Macadamia Farming Bot Configuration
+# ===================================
+
+# API Configuration
+api:
+  together_ai:
+    model: "meta-llama/Llama-2-7b-chat-hf"
+    max_tokens: 500
+    temperature: 0.7
+    timeout: 30
+  
+# Model Configuration
+models:
+  pest_risk:
+    model_type: "RandomForestClassifier"
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 5
+    min_samples_leaf: 2
+    
+  fertilizer_need:
+    model_type: "RandomForestClassifier"
+    n_estimators: 100
+    max_depth: 8
+    min_samples_split: 5
+    min_samples_leaf: 2
+    
+  harvest_timing:
+    model_type: "RandomForestClassifier"
+    n_estimators: 100
+    max_depth: 8
+    min_samples_split: 5
+    min_samples_leaf: 2
+    
+  yield_prediction:
+    model_type: "RandomForestRegressor"
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 5
+    min_samples_leaf: 2
+
+# Farming Parameters
+farming:
+  optimal_conditions:
+    soil_ph:
+      min: 6.0
+      max: 6.5
+      optimal: 6.2
+    temperature:
+      min: 18
+      max: 25
+      optimal: 22
+    humidity:
+      min: 60
+      max: 80
+      optimal: 70
+    rainfall:
+      min: 100
+      max: 200
+      optimal: 150
+  
+  tree_categories:
+    young:
+      min_age: 1
+      max_age: 3
+      description: "Establishment phase"
+    mature:
+      min_age: 4
+      max_age: 50
+      description: "Production phase"
+  
+  seasons:
+    - spring
+    - summer
+    - autumn
+    - winter
+
+# Chatbot Configuration
+chatbot:
+  conversation_history_limit: 50
+  response_timeout: 30
+  fallback_enabled: true
+  
+  domains:
+    - planting
+    - pest_management
+    - fertilization
+    - harvesting
+    - certification
+    - general
+
+# UI Configuration
+ui:
+  streamlit:
+    page_title: "🥜 Macadamia Farming AI Assistant"
+    page_icon: "🥜"
+    layout: "wide"
+    theme: "light"
+  
+  colors:
+    primary: "#2E8B57"
+    secondary: "#4CAF50"
+    accent: "#FFA726"
+    background: "#FAFAFA"
+
+# Data Paths
+data_paths:
+  farming_dataset: "macadamia_bot/data/farming_dataset.csv"
+  pest_management: "macadamia_bot/data/pest_management.json"
+  fertilization_guide: "macadamia_bot/data/fertilization_guide.json"
+  planting_calendar: "macadamia_bot/data/planting_calendar.json"
+  harvest_timing: "macadamia_bot/data/harvest_timing.json"
+  certification_guide: "macadamia_bot/data/certification_guide.json"
+
+# Model Paths
+model_paths:
+  saved_models: "macadamia_bot/models/saved"
+  pest_risk_model: "macadamia_bot/models/saved/pest_risk_model.pkl"
+  fertilizer_need_model: "macadamia_bot/models/saved/fertilizer_need_model.pkl"
+  harvest_ready_model: "macadamia_bot/models/saved/harvest_ready_model.pkl"
+  yield_prediction_model: "macadamia_bot/models/saved/yield_prediction_model.pkl"
+  encoders: "macadamia_bot/models/saved/encoders.pkl"
+  scalers: "macadamia_bot/models/saved/scalers.pkl"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/macadamia_bot.log"
+
+# Feature Flags
+features:
+  ml_predictions: true
+  conversational_ai: true
+  knowledge_base: true
+  farm_dashboard: true
+  model_training: true
+

@@ -1,0 +1,216 @@
+{
+  "harvest_guide": {
+    "maturity_indicators": {
+      "visual_signs": [
+        "Husk splits naturally and opens",
+        "Nut falls freely from husk",
+        "Shell color changes from green to brown",
+        "Kernel fills the shell completely",
+        "Husk color changes from green to brown/black"
+      ],
+      "physical_tests": {
+        "float_test": {
+          "procedure": "Place nuts in water",
+          "interpretation": "Mature nuts sink, immature nuts float",
+          "accuracy": "85-90% reliable indicator"
+        },
+        "shake_test": {
+          "procedure": "Shake individual nuts",
+          "interpretation": "Mature nuts rattle, immature nuts don't",
+          "timing": "Use when husks have opened"
+        },
+        "cut_test": {
+          "procedure": "Cut sample nuts to examine kernel",
+          "interpretation": "Mature kernels are white and firm",
+          "frequency": "Weekly testing during harvest season"
+        }
+      },
+      "timing_by_variety": {
+        "early_varieties": {
+          "varieties": ["A4", "Daddow"],
+          "harvest_months": "March-April (Southern Hemisphere)",
+          "characteristics": "First to mature, shorter harvest window"
+        },
+        "mid_season_varieties": {
+          "varieties": ["Beaumont", "A38"],
+          "harvest_months": "April-May (Southern Hemisphere)",
+          "characteristics": "Main harvest period, consistent maturity"
+        },
+        "late_varieties": {
+          "varieties": ["A16", "Own Venture"],
+          "harvest_months": "May-June (Southern Hemisphere)",
+          "characteristics": "Extended harvest, good storage quality"
+        }
+      }
+    },
+    "harvest_methods": {
+      "ground_collection": {
+        "description": "Collecting naturally fallen nuts",
+        "advantages": [
+          "Nuts are fully mature",
+          "Lower labor costs",
+          "Minimal tree damage"
+        ],
+        "disadvantages": [
+          "Quality deterioration if left too long",
+          "Pest and disease issues",
+          "Weather damage risk"
+        ],
+        "best_practices": [
+          "Collect nuts within 2-3 days of falling",
+          "Use clean collection surfaces",
+          "Sort and grade immediately",
+          "Remove damaged or diseased nuts"
+        ]
+      },
+      "tree_shaking": {
+        "description": "Mechanical or manual shaking to drop mature nuts",
+        "advantages": [
+          "Controlled harvest timing",
+          "Better quality control",
+          "Reduced ground exposure time"
+        ],
+        "equipment": [
+          "Mechanical tree shakers",
+          "Pneumatic shakers",
+          "Manual pole shakers"
+        ],
+        "timing": "When 70-80% of nuts have naturally fallen"
+      },
+      "selective_picking": {
+        "description": "Hand picking mature nuts from trees",
+        "advantages": [
+          "Highest quality nuts",
+          "Selective maturity harvesting",
+          "Minimal damage"
+        ],
+        "suitable_for": [
+          "Small orchards",
+          "Premium quality production",
+          "Difficult terrain"
+        ]
+      }
+    },
+    "post_harvest_handling": {
+      "immediate_processing": {
+        "dehusking": {
+          "timing": "Within 24 hours of harvest",
+          "methods": ["Manual removal", "Mechanical dehuskers"],
+          "quality_check": "Remove damaged or diseased nuts"
+        },
+        "washing": {
+          "purpose": "Remove dirt, debris, and surface contaminants",
+          "method": "Clean water wash, avoid prolonged soaking",
+          "drying": "Air dry immediately after washing"
+        },
+        "sorting": {
+          "criteria": [
+            "Size grading",
+            "Quality assessment",
+            "Damage evaluation",
+            "Variety separation"
+          ],
+          "equipment": ["Sizing screens", "Optical sorters", "Manual sorting"]
+        }
+      },
+      "drying_process": {
+        "moisture_targets": {
+          "fresh_harvest": "20-30% moisture content",
+          "storage_target": "1.5-3.5% moisture content",
+          "processing_target": "1.5-2.0% moisture content"
+        },
+        "drying_methods": {
+          "natural_drying": {
+            "method": "Sun drying on clean surfaces",
+            "duration": "7-14 days depending on weather",
+            "advantages": "Low cost, simple equipment",
+            "disadvantages": "Weather dependent, quality risks"
+          },
+          "forced_air_drying": {
+            "method": "Heated air circulation through nuts",
+            "temperature": "35-40°C maximum",
+            "duration": "24-48 hours",
+            "advantages": "Controlled conditions, consistent quality"
+          }
+        },
+        "quality_monitoring": [
+          "Regular moisture testing",
+          "Visual inspection for mold",
+          "Temperature monitoring",
+          "Turning nuts regularly"
+        ]
+      },
+      "storage_requirements": {
+        "conditions": {
+          "temperature": "10-15°C optimal",
+          "humidity": "60-65% relative humidity",
+          "ventilation": "Good air circulation required",
+          "pest_control": "Regular monitoring and treatment"
+        },
+        "containers": [
+          "Breathable bags (jute, mesh)",
+          "Ventilated bins",
+          "Climate-controlled storage rooms"
+        ],
+        "duration": {
+          "short_term": "Up to 6 months with proper conditions",
+          "long_term": "12+ months with controlled atmosphere"
+        }
+      }
+    },
+    "quality_standards": {
+      "grading_criteria": {
+        "premium_grade": {
+          "kernel_recovery": ">35%",
+          "defects": "<5%",
+          "size": "Large, uniform nuts",
+          "appearance": "Clean, unblemished shells"
+        },
+        "standard_grade": {
+          "kernel_recovery": "30-35%",
+          "defects": "5-10%",
+          "size": "Medium to large nuts",
+          "appearance": "Minor blemishes acceptable"
+        },
+        "processing_grade": {
+          "kernel_recovery": "25-30%",
+          "defects": "10-15%",
+          "size": "Mixed sizes acceptable",
+          "use": "Industrial processing"
+        }
+      },
+      "common_defects": [
+        "Insect damage",
+        "Mold contamination",
+        "Rancidity",
+        "Mechanical damage",
+        "Immature kernels",
+        "Discoloration"
+      ]
+    },
+    "harvest_planning": {
+      "pre_harvest": [
+        "Equipment preparation and maintenance",
+        "Labor scheduling and training",
+        "Storage facility preparation",
+        "Market arrangements",
+        "Quality testing protocols"
+      ],
+      "during_harvest": [
+        "Daily collection schedules",
+        "Quality monitoring",
+        "Weather monitoring",
+        "Equipment maintenance",
+        "Record keeping"
+      ],
+      "post_harvest": [
+        "Final processing and grading",
+        "Storage management",
+        "Market delivery",
+        "Financial analysis",
+        "Planning for next season"
+      ]
+    }
+  }
+}
+

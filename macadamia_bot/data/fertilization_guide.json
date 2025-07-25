@@ -1,0 +1,123 @@
+{
+  "organic_fertilization": {
+    "soil_requirements": {
+      "optimal_ph": "6.0-6.5",
+      "drainage": "Well-draining, deep soils",
+      "organic_matter": "3-5% minimum",
+      "nutrients": {
+        "nitrogen": "Primary growth nutrient",
+        "phosphorus": "Root and flower development", 
+        "potassium": "Fruit quality and disease resistance",
+        "calcium": "Shell development",
+        "magnesium": "Chlorophyll production",
+        "sulfur": "Protein synthesis"
+      }
+    },
+    "fertilization_schedule": {
+      "young_trees_1_3_years": {
+        "spring": {
+          "organic_compost": "10-15 kg per tree",
+          "blood_meal": "0.5 kg per tree",
+          "bone_meal": "1 kg per tree",
+          "kelp_meal": "0.3 kg per tree"
+        },
+        "summer": {
+          "liquid_fish_emulsion": "Monthly application, diluted 1:10",
+          "compost_tea": "Bi-weekly application"
+        },
+        "autumn": {
+          "aged_manure": "5-10 kg per tree",
+          "rock_phosphate": "0.5 kg per tree"
+        }
+      },
+      "mature_trees_4_plus_years": {
+        "spring": {
+          "organic_compost": "20-30 kg per tree",
+          "blood_meal": "1-2 kg per tree",
+          "bone_meal": "2-3 kg per tree",
+          "kelp_meal": "0.5-1 kg per tree",
+          "wood_ash": "1 kg per tree (if soil pH is low)"
+        },
+        "summer": {
+          "liquid_fish_emulsion": "Monthly application, diluted 1:8",
+          "compost_tea": "Bi-weekly application",
+          "foliar_seaweed_spray": "Monthly during growing season"
+        },
+        "autumn": {
+          "aged_manure": "15-25 kg per tree",
+          "rock_phosphate": "1-2 kg per tree",
+          "gypsum": "2-3 kg per tree (for calcium)"
+        }
+      }
+    },
+    "organic_amendments": {
+      "compost": {
+        "benefits": "Improves soil structure, adds nutrients, enhances microbial activity",
+        "application": "Apply 5-10cm layer around drip line, avoid trunk contact",
+        "timing": "Spring and autumn"
+      },
+      "biochar": {
+        "benefits": "Improves soil carbon, water retention, nutrient holding",
+        "application": "Mix with compost, 2-5% of soil volume",
+        "timing": "Once per year in spring"
+      },
+      "mycorrhizal_inoculant": {
+        "benefits": "Enhances nutrient uptake, improves drought tolerance",
+        "application": "Apply to root zone during planting or annually",
+        "timing": "Spring planting or early growing season"
+      }
+    },
+    "foliar_feeding": {
+      "seaweed_extract": {
+        "dilution": "1:500 with water",
+        "frequency": "Monthly during growing season",
+        "benefits": "Trace elements, growth hormones, stress tolerance"
+      },
+      "compost_tea": {
+        "preparation": "Steep quality compost in water for 24-48 hours",
+        "application": "Spray early morning or evening",
+        "frequency": "Bi-weekly during active growth"
+      },
+      "fish_emulsion": {
+        "dilution": "1:10 with water for foliar application",
+        "timing": "Early morning application preferred",
+        "benefits": "Quick nitrogen boost, amino acids"
+      }
+    }
+  },
+  "soil_testing": {
+    "frequency": "Annual testing recommended",
+    "parameters": [
+      "pH level",
+      "Organic matter content",
+      "Nitrogen (N)",
+      "Phosphorus (P)",
+      "Potassium (K)",
+      "Calcium (Ca)",
+      "Magnesium (Mg)",
+      "Sulfur (S)",
+      "Micronutrients (Fe, Mn, Zn, B, Cu, Mo)"
+    ],
+    "interpretation": {
+      "ph_adjustment": {
+        "too_acidic": "Add lime or wood ash gradually",
+        "too_alkaline": "Add sulfur or organic matter"
+      },
+      "nutrient_deficiencies": {
+        "nitrogen": "Yellowing of older leaves, reduced growth",
+        "phosphorus": "Purple leaf tinge, poor root development",
+        "potassium": "Brown leaf edges, poor fruit quality",
+        "calcium": "Blossom end rot, poor shell development"
+      }
+    }
+  },
+  "organic_certification_compliance": [
+    "Use only OMRI-listed fertilizers",
+    "Maintain detailed application records",
+    "Avoid synthetic fertilizers and chemicals",
+    "Implement soil building practices",
+    "Regular soil testing and monitoring",
+    "Buffer zones from conventional farms"
+  ]
+}
+

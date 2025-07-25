@@ -1,0 +1,242 @@
+{
+  "organic_certification": {
+    "certification_bodies": {
+      "international": [
+        "IFOAM (International Federation of Organic Agriculture Movements)",
+        "JAS Organic (Japan Agricultural Standards)",
+        "USDA Organic",
+        "EU Organic"
+      ],
+      "regional_examples": [
+        "ACO (Australian Certified Organic)",
+        "BioGro (New Zealand)",
+        "NASAA (National Association for Sustainable Agriculture Australia)",
+        "CCOF (California Certified Organic Farmers)"
+      ]
+    },
+    "certification_requirements": {
+      "transition_period": {
+        "duration": "3 years minimum from last prohibited substance use",
+        "documentation": "Detailed records of all inputs and practices",
+        "inspection": "Annual inspections during transition",
+        "soil_testing": "Regular testing for prohibited residues"
+      },
+      "prohibited_substances": [
+        "Synthetic fertilizers",
+        "Synthetic pesticides",
+        "Genetically modified organisms (GMOs)",
+        "Sewage sludge",
+        "Irradiation",
+        "Synthetic growth regulators"
+      ],
+      "allowed_inputs": {
+        "fertilizers": [
+          "Compost from approved sources",
+          "Animal manures (properly composted)",
+          "Rock phosphate",
+          "Kelp meal",
+          "Bone meal",
+          "Blood meal",
+          "Fish emulsion"
+        ],
+        "pest_control": [
+          "Beneficial insects",
+          "Pheromone traps",
+          "Botanical pesticides (neem, pyrethrin)",
+          "Microbial pesticides (Bt, beneficial bacteria)",
+          "Physical barriers and traps",
+          "Approved mineral oils"
+        ],
+        "soil_amendments": [
+          "Lime (natural sources)",
+          "Gypsum",
+          "Sulfur",
+          "Mycorrhizal inoculants",
+          "Biochar",
+          "Green manures"
+        ]
+      }
+    },
+    "record_keeping_requirements": {
+      "production_records": [
+        "Field maps and crop rotation plans",
+        "Seed and planting material sources",
+        "All input applications (dates, rates, products)",
+        "Harvest dates and quantities",
+        "Storage and handling procedures"
+      ],
+      "input_documentation": [
+        "Purchase receipts for all inputs",
+        "Certificates of compliance for inputs",
+        "Application records with dates and rates",
+        "Mixing and preparation procedures",
+        "Applicator training records"
+      ],
+      "monitoring_records": [
+        "Pest and disease monitoring logs",
+        "Soil test results",
+        "Water quality testing",
+        "Beneficial insect populations",
+        "Weather data"
+      ]
+    },
+    "inspection_process": {
+      "annual_inspection": {
+        "scope": "Complete farm and facility review",
+        "documentation_review": "All records for past year",
+        "field_inspection": "Visual assessment of practices",
+        "sampling": "Soil, water, and product samples if needed"
+      },
+      "inspector_qualifications": [
+        "Certified organic inspector training",
+        "Agricultural background",
+        "Knowledge of organic standards",
+        "Continuing education requirements"
+      ],
+      "common_violations": [
+        "Inadequate record keeping",
+        "Use of prohibited substances",
+        "Contamination from neighboring farms",
+        "Improper composting procedures",
+        "Missing buffer zones"
+      ]
+    },
+    "buffer_zones": {
+      "purpose": "Prevent contamination from adjacent conventional farms",
+      "minimum_distance": "Varies by certifier (typically 3-30 meters)",
+      "factors_affecting_size": [
+        "Type of adjacent land use",
+        "Prevailing wind direction",
+        "Topography and drainage",
+        "Application methods used nearby"
+      ],
+      "management": [
+        "Regular monitoring for contamination",
+        "Physical barriers where appropriate",
+        "Communication with neighbors",
+        "Documentation of buffer zone maintenance"
+      ]
+    }
+  },
+  "other_certifications": {
+    "fair_trade": {
+      "requirements": [
+        "Fair prices for farmers",
+        "Democratic organization",
+        "Community development projects",
+        "Environmental protection",
+        "Safe working conditions"
+      ],
+      "benefits": [
+        "Premium prices",
+        "Market access",
+        "Community development funds",
+        "Long-term trading relationships"
+      ]
+    },
+    "rainforest_alliance": {
+      "focus_areas": [
+        "Biodiversity conservation",
+        "Sustainable livelihoods",
+        "Human rights protection",
+        "Climate change mitigation"
+      ],
+      "requirements": [
+        "Forest conservation",
+        "Wildlife protection",
+        "Water conservation",
+        "Fair treatment of workers",
+        "Integrated pest management"
+      ]
+    },
+    "global_gap": {
+      "scope": "Good Agricultural Practices certification",
+      "requirements": [
+        "Food safety protocols",
+        "Environmental protection",
+        "Worker health and safety",
+        "Animal welfare (if applicable)",
+        "Traceability systems"
+      ]
+    }
+  },
+  "certification_process": {
+    "steps": [
+      {
+        "step": 1,
+        "title": "Choose certification body",
+        "description": "Research and select appropriate certifier",
+        "timeline": "1-2 months"
+      },
+      {
+        "step": 2,
+        "title": "Application submission",
+        "description": "Complete application with farm details",
+        "timeline": "1 month"
+      },
+      {
+        "step": 3,
+        "title": "Documentation preparation",
+        "description": "Prepare all required records and procedures",
+        "timeline": "2-3 months"
+      },
+      {
+        "step": 4,
+        "title": "Initial inspection",
+        "description": "On-farm inspection by certified inspector",
+        "timeline": "1 day inspection"
+      },
+      {
+        "step": 5,
+        "title": "Review and decision",
+        "description": "Certifier reviews inspection report",
+        "timeline": "4-6 weeks"
+      },
+      {
+        "step": 6,
+        "title": "Certificate issuance",
+        "description": "Receive organic certificate if approved",
+        "timeline": "1-2 weeks"
+      }
+    ],
+    "costs": {
+      "application_fee": "$500-2000 depending on certifier",
+      "inspection_fee": "$1000-3000 per inspection",
+      "annual_certification_fee": "$500-1500 per year",
+      "additional_costs": [
+        "Travel expenses for inspector",
+        "Laboratory testing if required",
+        "Corrective action costs"
+      ]
+    },
+    "timeline": {
+      "new_certification": "6-12 months from application",
+      "annual_renewal": "2-3 months",
+      "transition_period": "3 years for full organic status"
+    }
+  },
+  "maintaining_certification": {
+    "annual_requirements": [
+      "Submit annual update form",
+      "Pay annual fees",
+      "Undergo annual inspection",
+      "Maintain detailed records",
+      "Report any changes to operation"
+    ],
+    "continuous_compliance": [
+      "Follow approved organic plan",
+      "Use only approved inputs",
+      "Maintain buffer zones",
+      "Keep detailed records",
+      "Notify certifier of any issues"
+    ],
+    "common_challenges": [
+      "Record keeping complexity",
+      "Input sourcing and verification",
+      "Pest management without synthetics",
+      "Contamination prevention",
+      "Cost of organic inputs"
+    ]
+  }
+}
+
